@@ -1,7 +1,7 @@
-const btnLike1 = ducument.getElementById("btnLike1")
-const countLike1 = ducument.getElementById("countLike1")
+const btnLike1 = document.getElementById("btnLike1")
+const countLike1 = document.getElementById("countLike1")
 
-function clickLikes(){
-  let totalLikes = parsInt(countLike1.value) + 1
-  countLike.textContent = totalLikes.toString()
+function clickLike1(){
+  let totalLikes = parseInt(countLike1.value) + 1
+  countLike1.textContent = totalLikes.toString()
 }
